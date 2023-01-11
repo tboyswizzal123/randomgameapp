@@ -1,0 +1,83 @@
+body{
+  background-image: url('./Components/Pictures/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.SideBar{
+  flex:.8;
+  background-color: rgb(14, 14, 90);
+}
+
+.Main{
+  flex:1;
+}
+
+.WinnersSelect{
+  border: 3px solid black;
+}
+
+.choice{
+  background-color: aqua;
+}
+
+.winner{
+  background-color: lightgreen;
+}
+
+.addGame{
+  border: 3px solid black;
+}
+
+.Main{
+  border: 3px solid black;
+  margin: 1rem;
+  padding:5rem;
+  min-width:63rem;
+  min-height:43rem;
+}
+
+.GameList{
+  display:flex;
+  flex-direction: column;
+}
+
+.GameList2{
+
+  display:flex;
+  flex-direction: column;
+}
+
+.GameList3{
+
+  display:flex;
+  flex-direction: column;
+}
+
+img{
+  width: 150px;
+  height:150px;
+}
+
+.listStyle{
+  list-style: none;
+  width:10rem;
+  height: 2rem;
+  border:2px solid blue;
+  background-color: aqua;
+}
+
+.listStyle2{
+  margin-left: 15rem;
+}
+
+
+.deleteButton{
+  height: 2rem;
+  width:5rem;
+}
+
+.roll{
+  width:20rem;
+}
